@@ -1,0 +1,41 @@
+
+
+nav .container ul{
+    display: flex;
+    justify-content: flex-end;
+    vertical-align: middle;
+}
+
+nav .container ul li{
+    display: inline-block;
+    margin-right: 20px;
+    flex-flow: row-reverse;
+
+}
+#main {
+    background: #DDD;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+aside {
+    background: gold;
+    margin: 10px 0;
+}
+
+section {
+    padding: 10px;
+    margin: 0px;
+}
+
+.ads div {
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border: 1px solid tomato;
+}
+
+footer {
+    background: lightgreen;
+    padding: 10px;
+}

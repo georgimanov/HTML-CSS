@@ -1,0 +1,86 @@
+@import url("http://fonts.googleapis.com/css?family=PT+Sans:700");
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'PT Sans';
+    font-size: 24px;
+    color: #8aacad;
+}
+
+h4{
+    font-size: 2rem;
+}
+
+#wrapper{
+    width: 400px;
+    margin: 10px;
+}
+
+    .form-field{
+        display: block;
+        padding: 5px 5px 5px 50px;
+        border: 3px solid #8aacad;
+        outline: none;
+        font-size: 1.2rem;
+        width: 330px;
+    }
+
+    .form-field:focus{
+        border: 3px solid #820505;
+    }
+    input textarea{
+        margin: 10px;
+        height: 180px;
+
+    }
+
+input[type="submit"]{
+    background: #a8acad;
+    width: 390px;
+    text-transform: uppercase;
+    border: 1px solid #a8acad;
+    height: 40px;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus{
+    background-color: #820505;
+    color: #ffffff;
+}
+#name {
+    background: url("../images/Name.jpg");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 5px 5px;
+}
+
+#email{
+    background: url("../images/Email.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 5px 5px;
+}
+
+#phone{
+    background: url("../images/PhoneNumber.jpg");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 5px 5px;
+}
+
+#budget{
+    background: url("../images/Budget.png");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 5px 5px;
+}
+
+#elevator-pitch{
+    background: url("../images/ElevatorPitch.jpg");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 5px 5px;
+}

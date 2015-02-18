@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: RGB(35, 68, 101);
+    color: white;
+    font-size: 15px;
+    font-variant: small-caps;
+    text-decoration: none;
+    font-family: calibri;
+    font-weight: bold;
+
+}
+
+.container td{
+    padding: 0;
+    margin: 0;
+}
+.container #logo:hover {
+    opacity: 0.7;
+    margin: 0;
+}
+
+.navTable {
+    width: 84%;
+    margin-left: 8%;
+    padding: 5px;
+}
+.nav{
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container li {
+    list-style-type: none;
+    display: inline;
+    float: right;
+    margin: 10px;
+    padding-top: 10px;
+
+}
+
+.container ul, li, a{
+text-align: center;
+}
+.container ul{
+    padding: 0;
+    margin: 0;
+}
+
+.nav td{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navTable li{
+    height: 32px;
+}
+
+.navTable li:hover{
+    background-color: RGB(77, 160, 219);
+    color: white;
+    border-radius: 5px;
+}
+
+button[type="submit"].searchButton {
+    width: 32px;
+    height: 32px;
+    vertical-align: top;
+    margin-left: 0;
+    border: 0;
+    background-image: url("../images/magnifyingglass.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#searcher{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:  5px;
+    width: 220px;
+    height: 32px;
+    padding: 5px;
+    margin: 0;
+    border: 0;
+}

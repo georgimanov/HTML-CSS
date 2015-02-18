@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    padding: 1%;
+    border-collapse: collapse;
+    border: 1px;
+    border-color: skyblue;
+    border-style: solid;
+
+}
+table td{
+    border: 1px;
+    border-color: skyblue;
+    border-style: solid;
+}
+table input{
+    text-align: right;
+    height: 40px;
+    width: 98%;
+}
+.buttons INPUT{
+    width: 40px;
+    height: 40px;
+    border: 1px;
+    border-color: skyblue;
+    border-style: solid;
+    text-align: center;
+}

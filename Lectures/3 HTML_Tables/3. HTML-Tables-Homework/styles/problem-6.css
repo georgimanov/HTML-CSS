@@ -1,0 +1,38 @@
+*{
+    padding: 1px;
+    margin: 1px;
+}
+.myTable{
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    color: blue;
+    font-weight: bold;
+}
+.myTable th{
+    width: 200px;
+    height: 60px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+}
+.myTable td{
+    width: 100px;
+    height: 60px;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+
+}
+.myTable button{
+    width: 100%;
+    height: 100%;
+}
+.myTable a{
+    font-size: 18px;
+    text-decoration: none;
+}
+#beer a{
+    text-align: right;
+}

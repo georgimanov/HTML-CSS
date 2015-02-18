@@ -1,0 +1,18 @@
+.simpleTable span {
+    font-weight: bold;
+}
+
+.simpleTable h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.simpleTable table {
+    font-size: large;
+    border: 1px solid black;
+    width: 420px;
+}
+
+.simpleTable p {
+    margin-top: 0;
+}

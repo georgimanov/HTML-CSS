@@ -1,0 +1,220 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    background-color: #F7F7F7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 750px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+}
+
+#wrapper h1 {
+    font-size: 22px;
+    margin-top: 22px;
+    margin-bottom: 35px;
+}
+
+.reg-form {
+    width: 525px;
+    margin-right: 5px;
+}
+
+.reg-form fieldset {
+    display: block;
+    border: 1px dotted #CCCCCC;
+    width: 520px;
+}
+
+.reg-form fieldset legend {
+    color: #E7FFFF;
+    border: 1px solid #333333;
+    background-color: #666666;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+#wrapper div.reg-form fieldset label {
+
+    margin: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    background-color: #CCCCCC;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 11px;
+    padding-right: 75px;
+}
+
+
+
+div.box {
+    background: #E6E6E6;
+    width: 350px;
+    box-sizing: border-box;
+    display: inline-flex;
+
+}
+
+.reg-form fieldset label, .reg-form fieldset div.box input{
+    display: inline-flex;
+    box-sizing: border-box;
+}
+
+.reg-form div.box:last-of-type{
+    box-sizing: border-box;
+    justify-content: flex-end;
+    float: right;
+    margin: 5px;
+    background-color: #fff ;
+    width: 350px;
+    border: 1px solid #CCCCCC;
+}
+
+.reg-form fieldset .box input {
+    display: inline-block;
+    width: 315px;
+    margin: 5px;
+    padding: 5px;
+    border-top: 1px solid #9A9A9A;
+    border-left: 1px solid #9A9A9A;
+    border-bottom: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    background-color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.reg-form fieldset .box input:focus{
+    background-color: #F7F5D2;
+    outline: none;
+    border: 2px solid #9DBFF6;
+    border-radius: 3px;
+}
+
+.reg-form fieldset .box input:hover{
+    cursor: pointer;
+    background-color:#F7F5D2 ;
+}
+
+.reg-form fieldset label{
+    width: 145px;
+    padding-top: 20px;
+}
+.btn{
+    color: #A19070;
+    margin: 7px 34px 5px 0;
+
+    border-top: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    border-right: 2px solid #D8D8D0;
+    border-bottom: 2px solid #D8D8D0;
+
+    padding: 8px 10px 7px 14px;
+}
+
+.btn:hover{
+    background-color: #CCCCCC;
+    color: #6F5555;
+    cursor: pointer;
+
+}
+
+.border {
+    border-top: 1px dotted #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 520px;
+}
+
+.info {
+    margin-top: 91px;
+    width: 210px;
+    float: right;
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+}
+
+.info h3 {
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.info p {
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+
+#user{
+    background-image: url("../images/reg-form/username-icon.png");
+    background-repeat: no-repeat;
+    background-position: 3px 5px;
+}
+
+#pass{
+    background-image: url("../images/reg-form/password-icon.png");
+    background-repeat: no-repeat;
+    background-position: 3px 5px;
+}
+
+.details {
+    background-image: url("../images/reg-form/field-icon.png");
+    background-repeat: no-repeat;
+    background-position: 3px 5px;
+}

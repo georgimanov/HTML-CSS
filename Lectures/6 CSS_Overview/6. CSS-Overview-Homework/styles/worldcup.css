@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    background-color: #00923E;
+    width: 633px;
+    height: 230px;
+    padding: 9px 10px;
+
+}
+table {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-spacing: 0px;
+    border-radius: 10px;
+
+}
+
+table, th, td{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+table tr{
+    height: 33px;
+}
+
+table thead th{
+    background-color: #F8C711;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+table tr td{
+    font-size: 11px;
+}
+
+table thead th:first-child {
+    border-top-left-radius: 8px;
+}
+table thead th:last-child {
+    border-top-right-radius: 8px;
+}
+
+
+.tr td:first-child {
+    text-align: right;
+    padding-right: 24px;
+}
+
+.tr td:nth-child(2n) {
+    text-align: center;
+
+}
+
+.tr td:nth-child(3) {
+    text-align: left;
+    padding-left: 24px;
+}
+
+.tr td:nth-child(5) {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.tr td:nth-child(7) {
+    text-align: left;
+    padding: 5px;
+}
+
+.th td:first-of-type {
+    border-top-left-radius: 8px;
+}
+
+.th td:last-child {
+    border-top-right-radius: 8px;
+}
+
+.tr:last-of-type td:first-of-type {
+    border-bottom-left-radius: 8px;
+}
+
+.tr:last-of-type td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+.table tr:nth-child(2n){
+    background-color: #C8C8C8;
+}
+.table tr:nth-child(2n+1){
+    background-color: #ffffff;
+}
+table tr td:nth-child(1){
+    width: 79px;
+}
+table tr td:nth-child(2){
+    width: 40px;
+}
+table tr td:nth-child(3){
+     width: 100px;
+ }
+table tr td:nth-child(4){
+    width: 40px;
+}
+table tr td:nth-child(5){
+    width: 88px;
+}
+table tr td:nth-child(6){
+    width: 80px;
+}
+table tr td:nth-child(7){
+    width: 88px;
+}
+
+table tr td select{
+    font-size: 11px;
+    width: 33px;
+    height: 24px;
+    background-color: #DCDCDC;
+    color: #FD1B1D;
+}
+
+table tr td button{
+    font-size: 5px;
+    color: #ffffff;
+    height: 26px;
+    width: 26px;
+    border-radius: 100%;
+    background: red;
+}
+
+table tr:nth-child(4) td button{
+    background: #1F8A0E;
+}
+table tr:nth-child(5) td button{
+    background: #1F8A0E;
+}
+
+table tr:nth-child(4) td select{
+    color: #1F8A0E;
+}
+table tr:nth-child(5) td select{
+    color: #1F8A0E;
+}
+table tr:nth-child(6) td:nth-child(6) select{
+    color: green;
+}
+table tr:nth-child(7) td:nth-child(6) select{
+    color: green;
+}
+
+
+
+
+table tr:first-child td:first-child{
+    background-image: url("../images/brasil.png");
+    background-size: 17px 11px;
+    background-repeat: no-repeat;
+    background-position: 80px 14px;
+}
+table tr:nth-child(2) td:first-child{
+    background-image: url("../images/spain.png");
+    background-size: 17px 11px;
+    background-repeat: no-repeat;
+    background-position: 80px 14px;
+}
+table tr:nth-child(3) td:first-child{
+    background-image: url("../images/italy.png");
+    background-size: 17px 11px;
+    background-repeat: no-repeat;
+    background-position: 80px 14px;
+}
+table tr:nth-child(4) td:first-child{
+    background-image: url("../images/argentina.png");
+    background-size: 17px 11px;
+    background-repeat: no-repeat;
+    background-position: 80px 14px;
+}
+table tr:nth-child(5) td:first-child{
+    background-image: url("../images/germany.png");
+    background-size: 17px 11px;
+    background-repeat: no-repeat;
+    background-position: 80px 14px;
+}
+
+table tr:first-child td:nth-child(3){
+    background-image: url("../images/mexico.png");
+    background-size: 17px 11px;
+    background-repeat: no-repeat;
+    background-position: 5px 14px;
+}
+table tr:nth-child(2) td:nth-child(3){
+    background-image: url("../images/nederlands.png");
+    background-size: 17px 11px;
+    background-repeat: no-repeat;
+    background-position: 5px 14px;
+}
+table tr:nth-child(3) td:nth-child(3){
+    background-image: url("../images/england.png");
+    background-size: 17px 11px;
+    background-repeat: no-repeat;
+    background-position: 5px 14px;
+}
+
+table tr:nth-child(4) td:nth-child(3){
+    background-image: url("../images/bosna.png");
+    background-size: 17px 11px;
+    background-repeat: no-repeat;
+    background-position: 5px 14px;
+}
+
+table tr:nth-child(5) td:nth-child(3){
+    background-image: url("../images/portugal.png");
+    background-size: 17px 11px;
+    background-repeat: no-repeat;
+    background-position: 5px 14px;
+}
+

@@ -1,0 +1,69 @@
+@media screen and (max-width: 568px){
+    body{
+        width: 100%;
+        min-width: 95%;
+    }
+    .site{
+        margin-right: 3%;
+    }
+
+    .banner a.title{
+        font-size: 500%;
+    }
+    body  div.header ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+
+    }
+    body  div.header ul li{
+        display: flex;
+        width: 33.3%;
+    }
+
+
+
+    body div.footer div ul{
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    body div.footer div ul li{
+        display: flex;
+    }
+    .footer{
+        height: auto;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    td{
+        border: none;
+        position: relative;
+        padding-left: 15%;
+    }
+
+    body > div.site > div > div > table > thead > tr > th{
+        display: none;
+    }
+    body > div.site > div > div > table:nth-child(4) > tbody > tr:nth-child(2n +1){
+        background-color: #EEEEEF;
+    }
+    body > div.site > div > div > table:nth-child(7) > tbody > tr:nth-child(1)
+    {
+        background-color: #EEEEEF;
+    }
+
+    td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 10%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+    td:nth-of-type(1):before { content: "When:"; font-weight: bold }
+    td:nth-of-type(2):before { content: ""; }
+    td:nth-of-type(3):before { content: "What:"; font-weight: bold}
+}

@@ -1,0 +1,59 @@
+.wrapper {
+    margin:47px auto;
+    max-width:580px;
+}
+
+#contact_form {
+    border-radius:4px;
+    background:#74b26d;
+    padding:25px;
+}
+
+
+#ff label {
+    cursor:pointer;
+    margin:4px 0;
+    color:#bfdc70;
+    display:block;
+    font-weight:800;
+    font-size:1.8rem;
+
+}
+
+input {
+    display:block;
+    width:90%;
+    border-radius:4px;
+    background-color:#f4f4f4;
+    color:#000;
+    border:1px solid #5f5f5f;
+    padding:10px;
+    margin-bottom:25px;
+}
+textarea {
+    display:block;
+    width:90%;
+    border-radius:4px;
+    background-color:#f4f4f4;
+    color:#000;
+    border:1px solid #5f5f5f;
+    padding:10px;
+    margin-bottom:25px;
+}
+
+.sendButton {
+    cursor:pointer;
+    box-shadow:inset 0px 1px 0px 0px #fce2c1;
+    background-color:#ffc477;
+    border-radius:16px;
+    border:1px solid #e2e475;
+    color:#ffffff;
+    font-size:14px;
+    width:25%;
+    font-weight:bold;
+    text-shadow:1px 1px 0px #cc9f52;
+    min-width:100px;
+}
+.sendButton:hover {
+    background-color:#fb9e25;
+}

@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'MyWebFont';
+    src: url("../resources/Animated.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 603px;
+    height: 403px;
+}
+
+.wrap .sea {
+    width: 603px;
+    height: 403px;
+    background: linear-gradient( #006CDB 0%, #006CDB 50%);
+    z-index: 0;
+}
+
+.wrap .sun {
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(#F9F7BC 20%, #006CDB 70%);
+    position: absolute;
+    top: -250px;
+    left: -200px;
+    z-index: 1;
+}
+
+.wrap .beach {
+
+    background: url("../resources/HawaiiBackground.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    width: 603px;
+    height: 403px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.wrap h1 {
+    font-family: 'MyWebFont';
+    font-size: 33px;
+    font-weight: normal;
+    position: absolute;
+    left: 314px;
+    top: 16px;
+    color: #FDBC21;
+    z-index: 4;
+}
+
+.wrap .svetlin {
+    content: url("../resources/NakovHula.png");
+    z-index: 3;
+    height: 265px;
+    top: 100px;
+    left: 275px;
+    position: absolute;
+}
+
+.wrap .alex {
+    content: url("../resources/AlexHula.png");
+    z-index: 4;
+    height: 255px;
+    top: 130px;
+    left: 325px;
+    position: absolute;
+}
+
+.wrap .vlado {
+    content: url("../resources/VladoKHula.png");
+    z-index: 5;
+    height: 218px;
+    top: 160px;
+    left: 450px;
+    position: absolute;
+}
+
+.wrap .petya {
+    content: url("../resources/PetiaHula.png");
+    z-index: 7;
+    height: 238px;
+    top: 125px;
+    left: 125px;
+    position: absolute;
+}
+
+.wrap .tedi {
+    content: url("../resources/TediHula.png");
+    z-index: 8;
+    height: 140px;
+    top: 240px;
+    left: 180px;
+    position: absolute;
+}
+
+.wrap .vladi {
+    content: url("../resources/VladoGHula.png");
+    z-index: 6;
+    height: 225px;
+    top: 145px;
+    left: 25px;
+    position: absolute;
+}

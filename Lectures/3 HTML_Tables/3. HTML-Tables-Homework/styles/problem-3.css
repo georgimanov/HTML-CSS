@@ -1,0 +1,22 @@
+.table {
+    border: 1px;
+    border-style: solid;
+}
+
+.table td {
+    border: 1px;
+    border-style: solid;
+    font-size: 64px;
+}
+
+.table img {
+    margin: 10px;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.table .innerTable {
+    margin: 10px;
+    border: 1px;
+    border-style: solid;
+}

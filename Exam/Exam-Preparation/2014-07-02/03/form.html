@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Contact form</title>
+    <link rel="stylesheet" type="text/css" href="styles/form.css"/>
+</head>
+<body>
+<h4>Tell us about your startup:</h4>
+
+<div id="wrapper">
+    <form action="#" method="post">
+        <!-- Name, email, phone, budget, elevator pitch -->
+            <label for="name">Name</label>
+            <input class="form-field" type="text" name="name" id="name" required="required"/>
+
+            <label for="email">Email</label>
+            <input class="form-field" type="email" name="email" id="email" required="required"/>
+
+            <label for="phone">Phone</label>
+            <input class="form-field" type="text" name="phone" id="phone" required="required"/>
+
+            <label for="budget">Budget</label>
+            <input class="form-field" type="text" min="0" name="budget" id="budget" required="required"/>
+
+            <label for="elevator-pitch">Elevator pitch</label>
+            <textarea class="form-field" id="elevator-pitch" required="required"></textarea>
+
+            <input type="submit" value="Submit"/>
+    </form>
+</div>
+</body>
+</html>

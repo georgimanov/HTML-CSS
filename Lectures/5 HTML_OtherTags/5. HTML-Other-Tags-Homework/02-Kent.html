@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Kent|Profile</title>
+    <link type="text/css" rel="stylesheet" href="styles/kent.css">
+</head>
+<body>
+
+<div class="wrapper" id="wrapper">
+    <div class="textProfile">
+        <h1>Profile</h1>
+    </div>
+    <div class="profile">
+        <figure>
+            <figcaption title="name">User: Kent</figcaption>
+            <img src="images/kent_profile.png" title="kent" alt="kent profile picture">
+        </figure>
+        <figure>
+            <figcaption title="percent" id="percent">Profile completed 60%</figcaption>
+            <meter value="60" min="0" max="100" id="meter"></meter>
+            <br>
+        </figure>
+    </div>
+
+    <div class="audio">
+        <figure>
+            <figcaption title="audio">Uploaded Audio Files</figcaption>
+            <div class="fist-audio">
+            <audio controls id="first-audio">
+                <source src="sounds/sound-1.mp3" type="audio/mpeg">
+            </audio>
+            </div>
+            <audio controls>
+                <source src="sounds/sound-2.mp3" type="audio/ogg">
+            </audio>
+            <audio controls>
+                <source src="sounds/sound-3.wav" type="audio/ogg">
+            </audio>
+            <audio controls>
+                <source src="sounds/sound-4.mp3" type="audio/ogg">
+            </audio>
+        </figure>
+    </div>
+
+    <div class="video">
+        <figure>
+            <figcaption title="video">Uploaded Video Files</figcaption>
+            <video controls="controls" poster="images/hello-kitty.jpg"
+                   src="https://www.youtube.com/watch?v=LiaYDPRedWQ">
+            </video>
+        </figure>
+    </div>
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Team "THORN"|Videos</title>
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+    <link rel="stylesheet" href="styles/header.css"/>
+    <link rel="stylesheet" href="styles/footer.css"/>
+    <link rel="stylesheet" type="text/css" href="styles/style-videos.css"/>
+</head>
+<body>
+
+<header>
+    <div class="wrap">
+        <nav>
+            <a href="index.html">
+                <div class="logo-container"></div>
+            </a>
+            <div class="nav">
+                <ul>
+                    <li><a href="Contact-form.html" >Контакти</a></li>
+                    <li><a href="News.html">Новини</a></li>
+                    <li><a href="C--.html">Софтуер </a></li>
+                    <li><a href="Video.html">Медия</a></li>
+                    <li><a href="About.html">За нас</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </div>
+</header>
+<section>
+    <div class="video">
+
+
+        <article>
+            <h2>Химн на СофтУни</h2>
+            <h4 class="date"> Юли 6, 2014</h4>
+
+            <p class="inline">
+                Версия beta 2.0.1 -posted by <span class="name-author"><a href="About.html">georgimanov</a></span>
+            </p>
+
+            <div class="flow-player">
+                <iframe src="http://vbox7.com/emb/external.php?vid=fb62d188b5" allowfullscreen></iframe>
+            </div>
+
+
+            <p>
+                Запомни едно – кода ми, е много по-добър от кода ти. (x4)</br>
+                Добър ден, добър добър ден.</br>
+                Нека ти разкажа малко и за тоя user,</br>
+                Наков - питаш ме дали съм го видял,</br>
+                мале брат, тоз как се беше нагърмял.</br>
+                Видях го и му викам - "Ела да пием по бира",</br>
+                пък той отиде с някви нърдове май да дебъгира.</br>
+                Каза: "Кода е гаден", и за тва извади комп,</br>
+                "Викай ми Атанасов, пък на него – Стив Джобс."</br>
+                С погледа сърдит си голям злодей, ей,</br>
+                недей ми се прави на шут, кажи едно "Hello World!".</br>
+                Софтуера счупен, фейс-а му нацупен,</br>
+                кажи това не е ли nerd - абсолютен?</br>
+                Твойте лекции звучат пенсионерски брат,</br>
+                ся недей вървя кат царя на <a href="http://softuni.bg">SoftUni</a> град.</br>
+                Гледа мойта конфигурация - явно иска нея.</br>
+                Туй няя' стане брат - дал съм 300 леа'.</br>
+                Запомни едно – кода ми, е много по-добър от кода ти (x4)</br>
+                Ко ма гледаш ся, ко ма, ко ма гледаш ся.</br>
+                Ко ма гледаш ся, в кома ли изпадаш ся.</br>
+                Тряя намерите по най-добрия начин да се продадете ве,</br>
+                вий книга ли четете е, вий сте мноо зле.</br>
+                Искам пак на Борошец, искам на Искъра.</br>
+                Тихо ся', че съ' обажда дъртия.</br>
+                Недей ма занимаа, на лекции съм, изпрати колета,</br>
+                изпрати пари, да не спрат нета и планета.</br>
+                Ай' един път да си пищем, казах ти – в момента кодя,</br>
+                точно влизам в мрева - тряя armor да си избирам.</br>
+                Трябвало да почвам да спирам да се усирам,</br>
+                пък аз туй нещо абсолютно не го разбирам.</br>
+                Надуха ми главата тез CSS прости,</br>
+                добре, че таз вечер съм канен на гости.</br>
+                Да пием кола, нес кафе да са лей,</br>
+                ти няя ли да пускаш нова версия - ей къде е.</br>
+                Запомни едно - кода ми, е много по-добър от кода ти (x4)</br>
+            </p>
+        </article>
+        <article>
+            <h2>Нова авторска песен</h2>
+            <h4 class="date"> Юли 7, 2014</h4>
+
+            <p class="inline">
+                Версия beta 0.0.1 -posted by <span class="name-author"><a href="About.html">georgimanov</a></span>
+            </p>
+            <p>
+                Имаме изключителното удоволствие, да ви представим най-новата ни песен в изпълнение на D_N_D /a.k.a Митьо Байта/.
+                Преди няколко минути записахме импровизано парчето, още е топло и пари, внимавайте, да не се изгорите.
+            </p>
+            <a href="http://picosong.com/PAFR/"><h4>Няма какво да стане <strong>Click</strong></h4></a>
+            <p>
+                Имаш ли спомени в които кода ти не e грозeн?</br>
+                CSS-тът ти отново е мистериозeн!</br>
+                Събмитвам за един момент,ти да си заминеш от мен!</br>
+                С твоя лаптоп,като леген,аз се чувствам обезчестен!</br>
+                Събмитвам за един момент да си заминеш от мен,</br>
+                да асъртнеш чак в Сащ с някой html любящ!</br>
+                Имаш ли нещо против да ползваш еклипс или аптана?</br>
+                Нямам достатъчно рам със която да ти покрия мазнята!</br>
+                </br>
+                Припев:</br>
+                И просто няма да се рънне!</br>
+                Няма,няма,няма,няма да се рънне!</br>
+                Ако ти си до мен и аз съм с SVN,</br>
+                просто няма да ъпдейтне!</br>
+                Няма,няма,няма,няма да ъпдейтне!</br>
+                Ако Наков ти каже, че ти си кретен!</br>
+                </br>
+                Има кво да се обърка щом не дифвам и дебъгвам!</br>
+                С пръст в ухото ти човъркам и го протърквам!</br>
+                Има кво да се обърка щом не дифвам и дебъгвам!</br>
+                С пръст в ухото ти човъркам и го протърквам!</br>
+                </br>
+                Има ли място където да нямаш бъг и да не знаеш?</br>
+                Мога ли те ритна където си пожелаеш?</br>
+                Събмитвам за един момент,ти да си заминеш от мен!</br>
+                С твоя лаптоп,като леген,аз се чувствам обезчестен!</br>
+                Събмитвам за един момент да си заминеш от мен,</br>
+                да асъртнеш чак в Сащ с някой html любящ!</br>
+                Имаш ли нещо против масива ми,да се нулира!</br>
+                Няма  синтаксис,който да действа и да се валидира!</br>
+                </br>
+                Припев:</br>
+                И просто няма да се рънне!</br>
+                Няма,няма,няма,няма да се рънне!</br>
+                Ако ти си до мен и аз съм с SVN,</br>
+                просто няма да ъпдейтне!</br>
+                Няма,няма,няма,няма да ъпдейтне!</br>
+                Ако Наков ти каже, че ти си кретен!</br>
+                </br>
+                Няма кво да се обърка със индийци съм забъркан!(x2)</br>
+
+            </p>
+        </article>
+
+        <article>
+
+            <h2>Thorn Consult Bulgaria води преговори</h2>
+            <h4 class="date"> Юли 5, 2014</h4>
+
+            <p>
+                Срещу умопомрачително заплащане(по-скоро никакво) вече имаме и текст за химна. Още повече имаме и
+                ритъм към
+                песента, любезно предоставен (без неговото знание) от Ицо Хазарта.
+                Щастливи сме, да ви кажем, че водим преговори с:
+            </p>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=WwoM5fLITfk&feature=kp" target="_blank">Jay-Z</a></li>
+                <li><a href="https://www.youtube.com/watch?v=0GjdMgppEnk&list=PLVgQzQfDq6JtCLsSu0Q9CsSi_LpMwwP2c"
+                       target="_blank">Billy Hlapeto & Lexus feat Dim4ouKanye West</a></li>
+                <li><a href="http://silikonuni.slavcheva.net/trainers.php" target="_blank">СвеЗис</a></li>
+            </ul>
+            <p>Thorn Consult Bulgaria не възнамерява, да се ограничава в проговорите само с горспоменатите
+                изпълнители. Споменаваме ги само, за да се похвалим. Като лидер в проджект мениджмънта ние от
+                <strong>Thorn Consult Bulgaria Ltd.</strong> набираме талантливи музиканти за записване на парчето.
+                Без заплащане разбира се.
+
+                Не пропускайте крайния срок, за да се запишете, който е "вчера".</p>
+        </article>
+        <article>
+
+            <h2>Имаме новина</h2>
+            <h4 class="date"> Юли 4, 2014</h4>
+
+            <p>
+                Thorn Consult Bulgaria има удоуволствието, да Ви съощим започването на нашият най-нов проект. Считано от
+                01-07-2014г. екип "Продажби" сключи сделка със <a href="http://softuni.bg">SoftUni</a>
+                за създаване, записване
+                и промотиране на химна на университета.
+                </br></br>
+                Във връзка с горното започва набиране на персонал. В случай, че проявявате интерес, моля, свържете се с
+                нас чрез нашата <a href="Contact-form.html">контактна
+                форма</a>.</p>
+        </article>
+    </div>
+
+</section>
+<footer>
+    <div class="foot-wrap">
+        <div class="foot">
+            <h4>SoftUni Contacts</h4>
+            <img src="images/logo.png" class="logo" alt="logo">
+
+            <p>
+                <a class="fb" href="https://www.facebook.com/SoftwareUniversity"><img src="images/icon-facebook.png" alt="facebook"></a>
+                <a class="yt" href="https://www.youtube.com/channel/UCPlL0QmMNVtubUKO2SqU4zQ"><img src="images/icon-youtube.png" alt="youtube"></a>
+            </p>
+        </div>
+
+        <div class="foot">
+            <p>Copyright® teamTHORN @ SoftUni 2014 few minutes before deadline</p>
+
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/validator?uri=http&amp;3A&amp;2F&amp;2Fteam-thorn.softuni-friends.org&amp;2F&amp;profile=css3&amp;usermedium=all&amp;warning=1&amp;vextwarning=&amp;lang=en">     <img style="border:0;width:88px;height:31px"
+                         src="http://jigsaw.w3.org/css-validator/images/vcss"
+                         alt="Valid CSS!" />
+                </a>
+            </p>
+            <p>
+                <a href="http://validator.w3.org/check?uri=http&amp;3A&amp;2F&amp;2Fteam-thorn.softuni-friends.org&amp;2F"
+                   style="background-color: transparent">
+                    <img style="border-style:none" width="88" height="31"
+                         src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" /></a>
+            </p>
+        </div>
+        <div class="foot" id="foot-team">
+            <h4>teamTHORN Contacts</h4>
+            <img src="images/team-thorn-logo-small.png" class="logo" alt="logo small">
+            <p>
+                <a class="fb" href="https://www.facebook.com/spinderbok"><img src="images/icon-facebook.png" alt="facebook"></a>
+                <a class="yt" href="http://youtu.be/QRRw1BoVfzA"><img src="images/icon-youtube.png" alt="youtube"></a>
+            </p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

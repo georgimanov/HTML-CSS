@@ -1,0 +1,208 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+@font-face {
+    font-family:"Patua One";
+    src:url('http://fonts.googleapis.com/css?family=Patua+One');
+}
+
+#wrapper {
+    width:940px;
+    margin:0 auto;
+
+}
+
+#wrapper header {
+    box-sizing:border-box;
+    display:block;
+    width:564px;
+    justify-content:space-around;
+    margin:0 auto;
+}
+
+#wrapper header h1 {
+    font-family:"Patua One",Tahoma,Verdana,Calibri,sans-serif;
+    font-size:45px;
+    text-align:center;
+    line-height:60px;
+    display:block;
+    align-self:center;
+    clear:both;
+    color:#444444;
+    margin:25px 0 -2px;
+}
+
+#wrapper header h1:hover {
+    cursor:pointer;
+    color:#777777;
+}
+
+#wrapper header img {
+    width:53px;
+    height:53px;
+    margin:0;
+    padding:0;
+    position:relative;
+    top:8px;
+}
+
+#wrapper header p {
+    text-align:center;
+    color:#716368;
+    margin-bottom:5px;
+    font-style: italic;
+    font-size: 12px;
+    font-family:"Georgia",Tahoma,Verdana,Calibri,sans-serif;
+
+}
+
+#wrapper header nav {
+    display:inline-flex;
+    justify-content:center;
+    border-bottom:2px dotted #B6B6B6;
+    border-top:2px dotted #B6B6B6;
+    margin:20px 0;
+    padding:5px;
+    width:100%;
+    box-sizing:border-box;
+
+}
+
+#wrapper header nav a {
+    font-family:Arial,Verdana,sans-serif;
+    font-size:15px;
+    font-weight: bold;
+    text-decoration:none;
+    padding:5px 10px;
+    margin:5px;
+    color:#8C8D8E;
+    border-radius:3px;
+}
+
+    #wrapper header nav a:hover {
+        color:#4C4C52;
+    }
+
+#wrapper header nav a:first-of-type {
+    color:#8A8B8B;
+    background-color:#EEEEEE;
+}
+
+    #wrapper header nav a:first-of-type:hover {
+        color:#5B5B5C;
+        background-color:#EEEEEE;
+    }
+
+#wrapper main{
+    width:100%;
+    box-sizing:border-box;
+}
+
+#wrapper main section{
+    width:75%;
+    box-sizing:border-box;
+    float:left;
+}
+#wrapper main section article h2{
+    color: #3A1200;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+#wrapper main section article p{
+    color: #8F7066;
+}
+
+#wrapper main section article:first-of-type{
+    box-sizing:border-box;
+    border-bottom:2px dotted #C0C0C0;
+    border-top:2px dotted #C0C0C0;
+    text-align:center;
+    margin:20px 45px;
+    padding:25px 32px;
+    font-family:"Georgia",Tahoma,Verdana,Calibri,sans-serif;
+}
+
+#wrapper main section article:first-of-type h3{
+    font-size:20px ;
+    padding-bottom:20px;
+    color:#6A6462;
+}
+
+#wrapper main section article:first-of-type p{
+    font-size:10px ;
+    line-height:14px;
+    color:#68697A;
+}
+
+#wrapper main aside{
+    float:right;
+    background-color:#F9F9F9;
+    border:2px dotted #B2B2B2;
+    margin-top:10px;
+    padding:15px 0 15px 15px;
+    width:210px;
+}
+
+#wrapper main aside form input{
+    width:110px;
+    background-color:#F9F9F9;
+    border:2px solid #DCDCDC;
+    height:24px;
+    margin-bottom: 15px;
+}
+
+#wrapper main aside form input::selection{
+    border-radius:3px;
+    border:3px solid #97B4E4;
+    padding-left:2px;
+    outline:none;
+}
+
+
+
+#search-btn{
+    padding:2px 5px;
+    font-family:Arial, Verdana, sans-serif;
+    font-size:12px;
+}
+#wrapper main aside h3{
+    margin: 10px 0;
+}
+#wrapper main aside ul{
+    list-style:none;
+}
+
+#wrapper main aside ul li a {
+    text-decoration:none;
+    color:#5972D3;
+    font-size: 9px;
+}
+
+#wrapper main aside ul li a:hover {
+    text-decoration: underline;
+    color:#FE6753;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+footer {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 41px;
+    text-align: center;
+    color: #9B8F96;
+    background-color: #EEEEEE;
+    border-top: 1px solid #D3D3D3;
+    margin-top: 30px;
+}
+
+footer p{
+    text-shadow: 1px 1px #fff;
+    padding: 12px 0;
+}
