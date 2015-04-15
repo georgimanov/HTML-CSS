@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Social Cite</title>
+</head>
+<style>
+	body{
+		background-color: lightblue;
+	}
+	
+	table{
+		border: 1px solid black;
+	}
+	td{
+		border: 1px solid black;
+		width:45px;
+		height: 45px;
+		text-align: center;
+		font-size:28px;
+		font-weight:bold;
+	}
+	
+	input {
+		text-align:right;
+		background-color:limegreen;
+		border: 0px;
+		width:45px;
+		height: 45px;
+		font-size:20px;
+		font-weight:bold;
+		text-align: center;
+	}
+	
+	body > table > tbody > tr:nth-child(5) > td:nth-child(1) > input[type="button"]{
+		width:95px;
+	}
+	
+	body > table > tbody > tr:nth-child(1) > td{
+		text-align: right;
+	}
+	
+	body > table > tbody > tr:nth-child(1) > td input{
+		text-align:right;
+		background-color:lightblue;
+		border: 0px;
+		width:45px;
+		height: 45px;
+		font-size:28px;
+		font-weight:bold;
+		margin-right:20px;
+	}
+	
+</style>
+	<body>
+	  <table>
+	  <tr>
+		<td colspan="4">
+			<input type="text" readonly value="123">
+		</td>
+	  </tr>
+	  
+	  <tr>
+		<td><input type="button" value="1"></td>
+		<td><input type="button" value="2"></td>
+		<td><input type="button" value="3"></td>
+		<td><input type="button" value="+"></td>
+	  </tr>
+	  
+	  <tr>
+		<td><input type="button" value="4"></td>
+		<td><input type="button" value="5"></td>
+		<td><input type="button" value="6"></td>
+		<td><input type="button" value="-"></td>
+	  </tr>
+	  
+	  <tr>
+		<td><input type="button" value="7"></td>
+		<td><input type="button" value="8"></td>
+		<td><input type="button" value="9"></td>
+		<td><input type="button" value="*"></td>
+	  </tr>
+	  
+	  <tr>
+		<td colspan="2"><input type="button" value="0"></td>
+		<td><input type="button" value="."></td>
+		<td><input type="button" value="/"></td>
+	  </tr>
+	  
+	</body>
+</html>
