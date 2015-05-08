@@ -1,0 +1,79 @@
+body{
+    font-family: verdana;
+    font-size: smaller;
+}
+
+h3{
+    font-weight: normal;
+}
+
+div{
+    display: inline-block;
+}
+
+.container {
+    padding: 10px;
+    background: #EEEEEE;
+    border-radius: 10px;
+    width: 420px;
+    height: 540px;
+}
+
+.music-item {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #E2E2E2;
+    background: #FFFFFF;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.image-holder{
+    width: 135px;
+    height: 86px;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+    margin: 10px;
+    float: left;
+}
+
+.img1{
+    background: url("img01.bmp") no-repeat;
+}
+
+.img2{
+    background: url("img02.bmp") no-repeat;
+}
+
+.img3{
+    background: url("img03.png") no-repeat;
+}
+
+.text-holder{
+    width: 240px;
+    box-sizing: border-box;
+
+}
+
+.music-item span{
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.buttons input[type=button]{
+    margin: 5px;
+    padding: 5px;
+    padding-left: 20px;
+
+    background: -webkit-linear-gradient(left, rgb(135,0,0) 30%, rgb(213,0,1) 30%);
+    color: #FFFFFF;
+    font-size: smaller;
+
+    border: 2px outset #F18386;
+}

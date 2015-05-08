@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 660px;
+    height: 300px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.up{
+    background: -webkit-linear-gradient(top, rgb(76,76,76) 0%,rgb(89,89,89) 24%,rgb(102,102,102) 59%,rgb(19,19,19) 94%,rgb(19,19,19) 94%,rgb(19,19,19) 99%,rgb(19,19,19) 100%,rgb(19,19,19) 100%,rgb(17,17,17) 100%,rgb(71,71,71) 100%,rgb(43,43,43) 100%,rgb(28,28,28) 100%,rgb(19,19,19) 100%,rgb(19,19,19) 102%);
+}
+
+.image{
+    background: url("monitor.png") no-repeat;
+    width: 37px;
+    height: 44px;
+}
+
+.login{
+    display: inline-block;
+    width: 100%;
+    margin: auto 15px;
+}
+
+.login p{
+    color: #FFFFFF;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.login ul li{
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.login ul li input[type=button]{
+    background-color: red;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.login ul li input[type=text]{
+    height: 20px;
+}
+
+
+::-webkit-input-placeholder {
+    padding-left: 10px;
+    color: black;
+}
+
+.down h3{
+    font-family: times;
+    color: yellow;
+    font-size: xx-large;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+
+.down{
+    font-family: verdana;
+    background: #3B3B3B;
+    padding: 10px;
+    color: #7F7F7F;
+}
+
+.down span{
+    color: #BCBCBC;
+}
