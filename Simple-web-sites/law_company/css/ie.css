@@ -1,0 +1,66 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html,
+body {
+  min-width: 1156px;
+}
+#section-kmt .kmt-form-content .kmt-form-addon > div .input.kmt-location {
+  max-width: 1000px !important;
+}
+.gallery-item.gallery-grid .view .mask,
+.gallery-item.gallery-grid .view .content {
+  display: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader() !important;
+}
+.gallery-item.gallery-grid .view:hover .mask,
+.gallery-item.gallery-grid .view:hover .content {
+  display: block;
+}
+.blocks p,
+.team .item_introtext,
+.caroufredsel_prev span,
+.caroufredsel_next span {
+  display: none;
+}
+.blocks .item:hover p,
+.team .item_content:hover .item_introtext,
+.caroufredsel_prev:hover span,
+.caroufredsel_next:hover span {
+  display: block;
+}
+.gallery-grid .view .mask .mask_wrap .mask_cont > div,
+.gallery-grid .view .content .mask_wrap .mask_cont > div {
+  width: 317px;
+}
+.control-label label {
+  display: inline !important;
+}
+.control-label label span,
+.control-label label strong {
+  display: inline !important;
+}

@@ -1,0 +1,46 @@
+<div class="box">
+    <h2>My ads list</h2>
+
+    <pagination total-items="ads.numItems" ng-model="adsParams.startPage"
+                items-per-page="adsParams.pageSize" ng-change="reloadUserAds()"
+                max-size="9" boundary-links="true">
+    </pagination>
+
+
+    <ul class="ads">
+        <li ng-repeat="ad in ads.ads" class="box" data-id="{{ad.id}}">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>{{ad.title}}</h2>
+                    <p class="col-md-offset-10">{{ad.date | date:'dd-MMM-yyyy'}}</p>
+                    <div class="col-md-3 ">
+                        <div ng-if='ad.imageDataUrl'>
+                            <img class="ad-image" ng-src="{{ad.imageDataUrl}}" />
+                        </div>
+                        <div ng-if='!ad.imageDataUrl'>
+                            <img class="ad-image" ng-src="{{defaultImg}}">
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-md-offset-1">
+                        <div><strong>Text:</strong><p class="bg-info"> {{ad.text}} </p></div>
+                        <div><strong>Category:</strong><p class="bg-info"> {{ad.categoryName}} </p></div>
+                        <div><strong>Town:</strong> <p class="bg-info"> {{ad.townName}} </p></div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="clearfix"><h1>Status:</h1></div>
+                    <p class="bg-info"> {{ad.status}} </p>
+                    <a class="button" ng-if="ad.status == 'WaitingApproval' || ad.status == 'Published'" ng-click="deactivateAd(ad.id)">Deactivate</a>
+                    <a class="button" ng-if="ad.status == 'Inactive'" href="#/user/edit/{{ad.id}}">Edit</a>
+                    <a class="button" ng-if="ad.status == 'Inactive'" ng-click="publishAgainAd(ad.id)">Publish Again</a>
+                    <a class="button" ng-if="ad.status == 'Inactive'" a href="#/user/delete/{{ad.id}}">Delete</a>
+                </div>
+            </div>
+
+        </li>
+    </ul>
+
+    <div ng-if="ads.ads.length==0" class="box no-data">
+        No ads found.
+    </div>
+</div>

@@ -1,0 +1,128 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 32px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.mod_caroufredsel {
+  overflow: hidden;
+}
+.caroufredsel_wrapper {
+  cursor: auto !important;
+}
+.list_carousel {
+  padding: 0;
+  width: auto;
+  position: relative;
+  margin: 0;
+}
+.list_carousel ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list_carousel ul li {
+  padding: 0;
+  margin: 0;
+  display: block;
+  float: left;
+}
+@media (max-width: 1200px) {
+  .list_carousel {
+    margin: 0;
+  }
+  .list_carousel ul li {
+    padding: 0;
+  }
+}
+@media (max-width: 979px) {
+  .list_carousel {
+    margin: 0;
+  }
+  .list_carousel ul li {
+    padding: 0;
+  }
+}
+.clearfix {
+  float: none;
+  clear: both;
+}
+/*Navigation*/
+.caroufredsel_prev,
+.caroufredsel_next {
+  position: absolute;
+  top: 50%;
+  margin: 0 0 0 0;
+  margin-top: -28px;
+  display: block;
+  height: 55px;
+  width: 55px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.caroufredsel_prev:hover span,
+.caroufredsel_next:hover span {
+  opacity: 1;
+}
+.caroufredsel_prev span,
+.caroufredsel_next span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: left;
+  text-indent: -9999px;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.caroufredsel_prev {
+  right: 50%;
+  background: url('../images/marker_left.png') center center no-repeat #9e252e;
+}
+.caroufredsel_prev span {
+  background: url('../images/marker_left_active.png') center center no-repeat #ffffff;
+}
+.caroufredsel_next {
+  left: 50%;
+  background: url('../images/marker_right.png') center center no-repeat #9e252e;
+}
+.caroufredsel_next span {
+  background: url('../images/marker_right_active.png') center center no-repeat #ffffff;
+}
+/*Pagination*/
+.caroufredsel_pagination {
+  text-align: center;
+}
+.caroufredsel_pagination a {
+  display: inline-block;
+  padding: 0 0.5em;
+}

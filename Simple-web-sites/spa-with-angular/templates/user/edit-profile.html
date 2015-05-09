@@ -1,0 +1,57 @@
+<div class="box">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="col-md-12">
+                <h2>Edit profile</h2>
+            </div>
+
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" id="name" ng-model="userData.name" required/>
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" id="email" ng-model="userData.email" required/>
+            </p>
+            <p>
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" ng-model="userData.phoneNumber" required/>
+            </p>
+            <p>
+                <label for="town">Town:</label>
+                <select id="town" ng-model="userData.townId">
+                    <option value="null">(None)</option>
+                    <option ng-repeat="town in towns"
+                            value="{{town.id}}">{{town.name}}</option>
+                </select>
+            </p>
+            <p>
+                <a ng-click="editProfile(userData)" class="button">Update</a>
+                <a ng-click="cancel()" class="button">Cancel</a>
+            <p>
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-12">
+                <h2>Change password</h2>
+            </div>
+
+            <p>
+                <label for="oldPassword">Old password:</label>
+                <input type="password" id="oldPassword" ng-model="password.oldPassword" required />
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="password" ng-model="password.newPassword" required />
+            </p>
+            <p>
+                <label for="password">Confirm password:</label>
+                <input type="password" name="confirmPassword" ng-model="password.confirmPassword" required/>
+            </p>
+
+            <p>
+                <a ng-click="changePassword(password)" class="button">Change Password</a>
+                <a ng-click="cancel()" class="button">Cancel</a>
+            <p>
+        </div>
+    </div>
+</div>

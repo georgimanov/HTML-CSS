@@ -1,0 +1,38 @@
+<h2>Home Screen</h2>
+
+
+<pagination total-items="ads.numItems" ng-model="adsParams.startPage"
+            items-per-page="adsParams.pageSize" ng-change="reloadAds()"
+            max-size="9" boundary-links="true">
+</pagination>
+
+
+<ul class="ads">
+    <li ng-repeat="ad in ads.ads" class="box">
+            <div class="row">
+                    <div class="col-md-9 pull-left"><h2>{{ad.title}}</h2></div>
+                    <div class="col-md-3 pull-right"><p class="text-right"><strong>{{ad.date | date:'dd-MMM-yyyy'}}</strong></p></div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div ng-if='ad.imageDataUrl'>
+                        <img class="ad-image" ng-src="{{ad.imageDataUrl}}" />
+                    </div>
+                    <div ng-if='!ad.imageDataUrl'>
+                        <img class="ad-image" ng-src="{{defaultImg}}">
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div><strong>Text:</strong> {{ad.text}}</div>
+                    <div><strong>Name:</strong> {{ad.ownerName}}</div>
+                    <div><strong>Email:</strong> {{ad.ownerEmail}}</div>
+                    <div><strong>Phone:</strong> {{ad.ownerPhone}}</div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+
+<div ng-if="ads.ads.length==0" class="box no-data">
+    No ads found.
+</div>
