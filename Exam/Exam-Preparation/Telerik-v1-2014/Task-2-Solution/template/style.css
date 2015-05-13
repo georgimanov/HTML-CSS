@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Courier New', Courier, 'Nimbus Mono L', monospace;
+    font-size: 16px;
+}
+
+.menu{
+    display: inline-block;
+    width: 960px;
+    box-sizing: border-box;
+}
+
+ul li{
+    position: absolute;
+    top: 7px;
+}
+
+ul li:nth-child(1){
+    left:7px;
+}
+
+ul li:nth-child(2){
+    left: 100px;
+}
+
+ul li:nth-child(3){
+    left: 192px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li > a:not(:last-child) {
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to bottom,  rgb(37,220,242) 0%,rgb(121,149,226) 100%);
+}
+
+ul li .content {
+    display: none;
+}
+
+ul li:hover .content {
+    display: block;
+    position: relative;
+    top: -15px;
+    left: 20px;
+    z-index: 100;
+}
+
+.content{
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(254,255,255) 0%,rgb(160,216,239) 100%); /* W3C */
+}
+
+.content ul, .content ul li,  .content ul li a{
+    position: relative;
+    left: -15px;
+    top: 0px;
+    display: block;
+}
+
+.content ul{
+    list-style-type: square!important;
+}
+
+.content span{
+    font-weight: bold;
+}
+
+.content h3{
+    text-decoration: underline;
+}

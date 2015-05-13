@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body{
+    font-family: Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+    font-size: 16px;
+    margin: 5px;
+}
+
+#wrapper{
+    width: 904px;
+    height: 220px;
+    display: inline-block;
+
+}
+
+ul li{
+    float: left;
+    box-sizing: border-box;
+    display: inline-block;
+    background: linear-gradient(to bottom, rgb(114,114,114) 0%,rgb(255,255,255) 100%); /* W3C */
+    border: 20px solid #808080;
+    margin-right: 5px;
+}
+
+ul li:hover {
+    background: #808080;
+    border: 20px solid #454545;
+}
+
+ul li:hover h3{
+    text-decoration: underline;
+}
+
+ul li:hover img{
+    width: 140px;
+    height: 110px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+ul li:hover p.subtitle{
+    display: none;
+}
+
+ul li:hover p.click-here{
+    display: block;
+}
+
+ul li:hover .image-container{
+    padding: 0 20px;
+}
+
+
+ul li h3{
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: -2px;
+}
+
+p.subtitle{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+p.click-here{
+    display: none;
+    text-align: center;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+img{
+    width: 120px;
+    height: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.image-container{
+    padding: 0 30px;
+}

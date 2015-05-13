@@ -1,0 +1,114 @@
+body {
+  font-size: 14px;
+  font-family: Corbel;
+}
+    body #root {
+      width: 350px;
+    }
+
+    body #root {
+        box-sizing: border-box;
+        border-left: 3px solid black;
+        border-top: 3px solid black;
+        border-top-left-radius: 20px;
+    }
+
+        body #root h1{
+            text-align: center;
+        }
+
+        body #root .box{
+            padding: 10px;
+            margin: 10px 40px 20px 20px;
+
+            box-sizing: border-box;
+            border: 1px solid black;
+            border-radius: 5px;
+            background: linear-gradient(to bottom, rgb(203,247,190) 0%,rgb(203,247,190) 14%,rgb(229,217,110) 59%,rgb(229,217,110) 100%); /* W3C */
+        }
+
+            body #root .box .dropdown{
+                display: inline-block;
+                position: relative;
+            }
+                body #root .box .dropdown ul {
+                    padding: 0;
+                    display: none;
+                }
+                body #root .box .dropdown span {
+                    background-image: url("images/down-arrow.png");
+                    background-repeat: no-repeat;
+                    padding-left: 20px;
+                }
+
+                body #root .box .dropdown span:hover {
+                    background-image: url("images/left-arrow.png");
+                }
+
+                body #root .box .dropdown:active ul{
+                    display: block;
+                    position: absolute;
+                    background: green;
+                    top:-10px;
+                    left: 130px;
+                    list-style: none;
+                    padding: 5px;
+                    background: linear-gradient(to top, rgb(203,247,190) 0%,rgb(203,247,190) 14%,rgb(229,217,110) 59%,rgb(229,217,110) 100%); /* W3C */
+                    border: 1px solid black;
+                    border-radius: 5px;
+                }
+
+                body #root .box .dropdown:active ul > li{
+                    z-index: 999;
+                    padding: 5px 15px;
+                    width: 150px;
+                    text-align: center;
+                }
+
+                body #root .box .dropdown:active ul > li:hover{
+                    background-color: #CBC365;
+                }
+
+                body #root .box .dropdown:active ul > li:not(:last-of-type){
+                    border-bottom: 1px solid black;
+                }
+
+
+
+::-webkit-input-placeholder {
+    color: black;
+    font-weight: 100;
+    font-style: italic;
+    margin: 0;
+    outline: none;
+    border-radius: 3px;
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: end;
+    font-weight: bold;
+}
+
+
+input, button{
+    background: transparent;
+    padding: 0;
+    outline: 0;
+    border: 3px inset #CBF7BE;
+    border-radius: 3px;
+    padding-left: 20px;
+}
+
+input{
+    line-height: 24px;
+    width: 135px;
+    margin-bottom: 5px;
+}
+
+button{
+    line-height: 24px;
+    width: 100%;
+}
+
